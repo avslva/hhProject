@@ -9,7 +9,7 @@ public class Main {
     private static Logger log = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
         try (Scanner in = new Scanner(new File("researchData.txt"));
-              PrintWriter out = new PrintWriter("resultData.txt") ){
+             PrintWriter out = new PrintWriter("resultData.txt") ){
 
             hhClient hhClient = new hhClient();
 
